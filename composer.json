@@ -1,0 +1,20 @@
+{
+    "name": "hamed-sadeghinejad/admin-panel",
+    "description": "This package create admin panel for your projects",
+    "type": "project",
+    "authors": [
+        {
+            "name": "hamed sadeghinejad",
+            "email": "h.sadeghynejad@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HamedSadeghi\\AdminPanel\\" : "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "~5.0",
+        "lavary/laravel-menu": "^1.7"
+    }
+}
