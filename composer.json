@@ -1,7 +1,6 @@
 {
     "name": "hamed-sadeghinejad/admin-panel",
     "description": "This package create admin panel for your projects",
-    "type": "project",
     "authors": [
         {
             "name": "hamed sadeghinejad",
