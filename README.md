@@ -28,10 +28,10 @@ To adding menu in sidebar of panel you must add your menu in `sidebar` section, 
 
 ```php
         \Menu::make('sidebar', function($menu){
-            $menu->add('مدیریت مقالات', '#')
+            $menu->add('Articles management', '#')
                 ->attr('icon', 'newspaper')
                 ->nickname('articles');
-            $menu->articles->add('افزودن مقاله', 'http://www.google.com');
-            $menu->articles->add('لیست مقالات', 'http://www.google.com');
+            $menu->articles->add('Add new', ['route' => 'add-new']);
+            $menu->articles->add('List', ['route' => 'list']);
         });
 ```
