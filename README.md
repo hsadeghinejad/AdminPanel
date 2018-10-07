@@ -19,3 +19,19 @@ php artisan migrate
 ```
 php artisan vendor:publish --tag=AdminPanel-assets
 ```
+
+# Menu management
+AdminPanel using [lavary/laravel-menu](https://github.com/lavary/laravel-menu) for menu management.
+
+## Sidebar menu
+To adding menu in sidebar of panel you must add your menu in `sidebar` section, ex:
+
+```php
+        \Menu::make('sidebar', function($menu){
+            $menu->add('مدیریت مقالات', '#')
+                ->attr('icon', 'newspaper')
+                ->nickname('articles');
+            $menu->articles->add('افزودن مقاله', 'http://www.google.com');
+            $menu->articles->add('لیست مقالات', 'http://www.google.com');
+        });
+```
