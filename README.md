@@ -1,5 +1,4 @@
 # AdminPanel
-<img src="https://travis-ci.org/hsadeghinejad/AdminPanel.svg?branch=master">
 This is an admin panel for laravel packages.
 
 # Installation guide
