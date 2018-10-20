@@ -1,3 +1,7 @@
+[![Latest Stable Version](https://poser.pugx.org/hamed-sadeghinejad/admin-panel/v/stable)](https://packagist.org/packages/hamed-sadeghinejad/admin-panel)
+[![Total Downloads](https://poser.pugx.org/hamed-sadeghinejad/admin-panel/downloads)](https://packagist.org/packages/hamed-sadeghinejad/admin-panel)
+[![Latest Unstable Version](https://poser.pugx.org/hamed-sadeghinejad/admin-panel/v/unstable)](https://packagist.org/packages/hamed-sadeghinejad/admin-panel)
+[![License](https://poser.pugx.org/hamed-sadeghinejad/admin-panel/license)](https://packagist.org/packages/hamed-sadeghinejad/admin-panel)
 # AdminPanel
 This is an admin panel for laravel packages.
 
